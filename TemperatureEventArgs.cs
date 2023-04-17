@@ -41,6 +41,6 @@ public class TemperatureDisplay
 
     private void WeatherStation_TemperatureChanged(object sender, TemperatureChangedEventArgs e)
     {
-        Console.WriteLine($"Current temperature is {e.CurrentTemperature} degrees Celsius.");
+        Console.WriteLine($"The current temperature is {e.CurrentTemperature} degrees Celsius.");
     }
 }
